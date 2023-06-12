@@ -1,0 +1,55 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "lol_overlay-debug.exe": ["<lol_overlay-debug.exe>"]
+  "lol_overlay-debug.module": ["<lol_overlay-debug.module>"]
+  "main": ["<lol_overlay-debug.exe>","<lol_overlay-debug.module>"]
+  "test": ["<lol_overlay-debug.exe>","<lol_overlay-debug.module>"]
+default: "main"
+nodes:
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "<lol_overlay-debug.exe>":
+    tool: phony
+    inputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay"]
+    outputs: ["<lol_overlay-debug.exe>"]
+
+  "<lol_overlay-debug.module>":
+    tool: phony
+    inputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.swiftmodule"]
+    outputs: ["<lol_overlay-debug.module>"]
+
+  "C.lol_overlay-debug.exe":
+    tool: shell
+    inputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swift.o"]
+    outputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/lol_overlay"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug","-o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay","-module-name","lol_overlay","-emit-executable","-Xlinker","-alias","-Xlinker","_lol_overlay_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx","-target","arm64-apple-macosx11.0","-Xlinker","-add_ast_path","-Xlinker","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.lol_overlay-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/ContentView.swift","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/lol_overlayApp.swift","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/main.swift"]
+    outputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "lol_overlay"
+    module-output-path: "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.swiftmodule"
+    import-paths: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug"]
+    temps-path: "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build"
+    objects: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swift.o","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swift.o"]
+    other-args: ["-target","arm64-apple-macosx11.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","lol_overlay_main","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"]
+    sources: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/ContentView.swift","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/lol_overlayApp.swift","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Package.swift","/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

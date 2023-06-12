@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/master.swiftdeps"
+  },
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/ContentView.swift": {
+    "dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.d",
+    "object": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swift.o",
+    "swiftmodule": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/ContentView.swiftdeps"
+  },
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/lol_overlayApp.swift": {
+    "dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.d",
+    "object": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swift.o",
+    "swiftmodule": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/lol_overlayApp.swiftdeps"
+  },
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/main.swift": {
+    "dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.d",
+    "object": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swift.o",
+    "swiftmodule": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/.build/arm64-apple-macosx/debug/lol_overlay.build/main.swiftdeps"
+  }
+}

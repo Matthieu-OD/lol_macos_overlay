@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48EFDFF42A370704002CE9E9 /* lol_overlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFDFF32A370704002CE9E9 /* lol_overlayApp.swift */; };
+		48EFDFF62A370704002CE9E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFDFF52A370704002CE9E9 /* ContentView.swift */; };
+		48EFDFF82A370705002CE9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EFDFF72A370705002CE9E9 /* Assets.xcassets */; };
+		48EFDFFB2A370705002CE9E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EFDFFA2A370705002CE9E9 /* Preview Assets.xcassets */; };
+		48EFE0062A370705002CE9E9 /* lol_overlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFE0052A370705002CE9E9 /* lol_overlayTests.swift */; };
+		48EFE0102A370705002CE9E9 /* lol_overlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFE00F2A370705002CE9E9 /* lol_overlayUITests.swift */; };
+		48EFE0122A370705002CE9E9 /* lol_overlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFE0112A370705002CE9E9 /* lol_overlayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EFE0022A370705002CE9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EFDFE82A370704002CE9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EFDFEF2A370704002CE9E9;
+			remoteInfo = lol_overlay;
+		};
+		48EFE00C2A370705002CE9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EFDFE82A370704002CE9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EFDFEF2A370704002CE9E9;
+			remoteInfo = lol_overlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48EFDFF02A370704002CE9E9 /* lol_overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lol_overlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFDFF32A370704002CE9E9 /* lol_overlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_overlayApp.swift; sourceTree = "<group>"; };
+		48EFDFF52A370704002CE9E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48EFDFF72A370705002CE9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EFDFFA2A370705002CE9E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48EFDFFC2A370705002CE9E9 /* lol_overlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lol_overlay.entitlements; sourceTree = "<group>"; };
+		48EFE0012A370705002CE9E9 /* lol_overlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lol_overlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFE0052A370705002CE9E9 /* lol_overlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_overlayTests.swift; sourceTree = "<group>"; };
+		48EFE00B2A370705002CE9E9 /* lol_overlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lol_overlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFE00F2A370705002CE9E9 /* lol_overlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_overlayUITests.swift; sourceTree = "<group>"; };
+		48EFE0112A370705002CE9E9 /* lol_overlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_overlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EFDFED2A370704002CE9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFDFFE2A370705002CE9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFE0082A370705002CE9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EFDFE72A370704002CE9E9 = {
+			isa = PBXGroup;
+			children = (
+				48EFDFF22A370704002CE9E9 /* lol_overlay */,
+				48EFE0042A370705002CE9E9 /* lol_overlayTests */,
+				48EFE00E2A370705002CE9E9 /* lol_overlayUITests */,
+				48EFDFF12A370704002CE9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EFDFF12A370704002CE9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EFDFF02A370704002CE9E9 /* lol_overlay.app */,
+				48EFE0012A370705002CE9E9 /* lol_overlayTests.xctest */,
+				48EFE00B2A370705002CE9E9 /* lol_overlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EFDFF22A370704002CE9E9 /* lol_overlay */ = {
+			isa = PBXGroup;
+			children = (
+				48EFDFF32A370704002CE9E9 /* lol_overlayApp.swift */,
+				48EFDFF52A370704002CE9E9 /* ContentView.swift */,
+				48EFDFF72A370705002CE9E9 /* Assets.xcassets */,
+				48EFDFFC2A370705002CE9E9 /* lol_overlay.entitlements */,
+				48EFDFF92A370705002CE9E9 /* Preview Content */,
+			);
+			path = lol_overlay;
+			sourceTree = "<group>";
+		};
+		48EFDFF92A370705002CE9E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48EFDFFA2A370705002CE9E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48EFE0042A370705002CE9E9 /* lol_overlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EFE0052A370705002CE9E9 /* lol_overlayTests.swift */,
+			);
+			path = lol_overlayTests;
+			sourceTree = "<group>";
+		};
+		48EFE00E2A370705002CE9E9 /* lol_overlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48EFE00F2A370705002CE9E9 /* lol_overlayUITests.swift */,
+				48EFE0112A370705002CE9E9 /* lol_overlayUITestsLaunchTests.swift */,
+			);
+			path = lol_overlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EFDFEF2A370704002CE9E9 /* lol_overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFE0152A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlay" */;
+			buildPhases = (
+				48EFDFEC2A370704002CE9E9 /* Sources */,
+				48EFDFED2A370704002CE9E9 /* Frameworks */,
+				48EFDFEE2A370704002CE9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lol_overlay;
+			productName = lol_overlay;
+			productReference = 48EFDFF02A370704002CE9E9 /* lol_overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48EFE0002A370705002CE9E9 /* lol_overlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFE0182A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlayTests" */;
+			buildPhases = (
+				48EFDFFD2A370705002CE9E9 /* Sources */,
+				48EFDFFE2A370705002CE9E9 /* Frameworks */,
+				48EFDFFF2A370705002CE9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EFE0032A370705002CE9E9 /* PBXTargetDependency */,
+			);
+			name = lol_overlayTests;
+			productName = lol_overlayTests;
+			productReference = 48EFE0012A370705002CE9E9 /* lol_overlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48EFE00A2A370705002CE9E9 /* lol_overlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFE01B2A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlayUITests" */;
+			buildPhases = (
+				48EFE0072A370705002CE9E9 /* Sources */,
+				48EFE0082A370705002CE9E9 /* Frameworks */,
+				48EFE0092A370705002CE9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EFE00D2A370705002CE9E9 /* PBXTargetDependency */,
+			);
+			name = lol_overlayUITests;
+			productName = lol_overlayUITests;
+			productReference = 48EFE00B2A370705002CE9E9 /* lol_overlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EFDFE82A370704002CE9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					48EFDFEF2A370704002CE9E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					48EFE0002A370705002CE9E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 48EFDFEF2A370704002CE9E9;
+					};
+					48EFE00A2A370705002CE9E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 48EFDFEF2A370704002CE9E9;
+					};
+				};
+			};
+			buildConfigurationList = 48EFDFEB2A370704002CE9E9 /* Build configuration list for PBXProject "lol_overlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EFDFE72A370704002CE9E9;
+			productRefGroup = 48EFDFF12A370704002CE9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EFDFEF2A370704002CE9E9 /* lol_overlay */,
+				48EFE0002A370705002CE9E9 /* lol_overlayTests */,
+				48EFE00A2A370705002CE9E9 /* lol_overlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EFDFEE2A370704002CE9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFDFFB2A370705002CE9E9 /* Preview Assets.xcassets in Resources */,
+				48EFDFF82A370705002CE9E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFDFFF2A370705002CE9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFE0092A370705002CE9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EFDFEC2A370704002CE9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFDFF62A370704002CE9E9 /* ContentView.swift in Sources */,
+				48EFDFF42A370704002CE9E9 /* lol_overlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFDFFD2A370705002CE9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFE0062A370705002CE9E9 /* lol_overlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFE0072A370705002CE9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFE0102A370705002CE9E9 /* lol_overlayUITests.swift in Sources */,
+				48EFE0122A370705002CE9E9 /* lol_overlayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EFE0032A370705002CE9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EFDFEF2A370704002CE9E9 /* lol_overlay */;
+			targetProxy = 48EFE0022A370705002CE9E9 /* PBXContainerItemProxy */;
+		};
+		48EFE00D2A370705002CE9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EFDFEF2A370704002CE9E9 /* lol_overlay */;
+			targetProxy = 48EFE00C2A370705002CE9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48EFE0132A370705002CE9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48EFE0142A370705002CE9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		48EFE0162A370705002CE9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lol_overlay/lol_overlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lol_overlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48EFE0172A370705002CE9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lol_overlay/lol_overlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lol_overlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		48EFE0192A370705002CE9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lol_overlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lol_overlay";
+			};
+			name = Debug;
+		};
+		48EFE01A2A370705002CE9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lol_overlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lol_overlay";
+			};
+			name = Release;
+		};
+		48EFE01C2A370705002CE9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lol_overlay;
+			};
+			name = Debug;
+		};
+		48EFE01D2A370705002CE9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macos.lol-overlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lol_overlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EFDFEB2A370704002CE9E9 /* Build configuration list for PBXProject "lol_overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFE0132A370705002CE9E9 /* Debug */,
+				48EFE0142A370705002CE9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EFE0152A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFE0162A370705002CE9E9 /* Debug */,
+				48EFE0172A370705002CE9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EFE0182A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFE0192A370705002CE9E9 /* Debug */,
+				48EFE01A2A370705002CE9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EFE01B2A370705002CE9E9 /* Build configuration list for PBXNativeTarget "lol_overlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFE01C2A370705002CE9E9 /* Debug */,
+				48EFE01D2A370705002CE9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EFDFE82A370704002CE9E9 /* Project object */;
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "987ae90c55ed21f858a38f6409fb5b6081a148f26a999e03f196694fb5b85d48"
+build_start_time: [1686562548, 671192000]
+build_end_time: [1686562549, 78339000]
+inputs:
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/ContentView.swift": [1686559180, 87816039]
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/lol_overlayApp.swift": !private [1686561930, 683709212]
+  "/Users/matthieuolengadisashi/projects/league_of_legends/overlay/lol_overlay/Sources/lol_overlay/main.swift": !private [1686562331, 912733027]
