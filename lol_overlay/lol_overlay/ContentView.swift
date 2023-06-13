@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 struct ContentView: View {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
@@ -28,8 +29,10 @@ struct ContentView_Previews: PreviewProvider {
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var window: NSWindow!
-    
+
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+
+        NSApp.setActivationPolicy(.accessory)
 
         if let window = NSApplication.shared.windows.first {
             window.isOpaque = false
@@ -43,13 +46,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             window.contentView?.layer?.backgroundColor = NSColor.clear.cgColor
 
             // Keep window above all other and ignore mouse events
-            window.level = .floating
+            window.level = NSWindow.Level.screenSaver
             window.ignoresMouseEvents = true
 
             // Keep the window on all spaces
-            window.collectionBehavior = [.fullScreenPrimary]
-
-            NSApp.setActivationPolicy(.accessory)
+            window.collectionBehavior = [.canJoinAllSpaces, .fullScreenPrimary, .fullScreenAuxiliary]
         }
     }
 }
