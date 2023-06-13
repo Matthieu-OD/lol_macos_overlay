@@ -14,6 +14,6 @@ struct lol_overlayApp: App {
             ContentView()
         }.commands {
             CommandGroup(replacing: .newItem) { }
-        }
+        }.windowStyle(HiddenTitleBarWindowStyle())
     }
 }
